@@ -166,3 +166,7 @@ C:\Users\한수\Desktop\졸업과제1\obj\Debug\Assembly-CSharp.csproj.CoreCompi
 C:\Users\한수\Desktop\졸업과제1\obj\Debug\Assembly-CSharp.csproj.CopyComplete
 C:\Users\한수\Desktop\졸업과제1\obj\Debug\Assembly-CSharp.dll
 C:\Users\한수\Desktop\졸업과제1\obj\Debug\Assembly-CSharp.pdb
+C:\Users\한수\Desktop\zolup\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\한수\Desktop\zolup\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\한수\Desktop\zolup\obj\Debug\Assembly-CSharp.dll
+C:\Users\한수\Desktop\zolup\obj\Debug\Assembly-CSharp.pdb

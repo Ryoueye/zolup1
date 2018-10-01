@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{A53E7018-96CA-48D4-D512-1C0E98CDA672}</ProjectGuid>
+    <ProjectGuid>{36FB1EE4-E758-7E5C-CB6D-8E1200AA3112}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,20 +61,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\GameResult.cs" />
+    <Compile Include="Assets\Goal.cs" />
     <Compile Include="Assets\JunkoChan\Scripts\JunkochanCamControl.cs" />
     <Compile Include="Assets\JunkoChan\Scripts\JunkochanControl.cs" />
+    <Compile Include="Assets\Timer.cs" />
     <None Include="Assets\JunkoChan\Readme (English and Japanese).txt" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/한수/Desktop/졸업과제1/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/한수/Desktop/zolup/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/한수/Desktop/졸업과제1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/한수/Desktop/zolup/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/한수/Desktop/졸업과제1/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/한수/Desktop/zolup/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/한수/Desktop/졸업과제1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/한수/Desktop/zolup/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
