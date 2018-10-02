@@ -63,10 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\GameResult.cs" />
     <Compile Include="Assets\Goal.cs" />
-    <Compile Include="Assets\JunkoChan\Scripts\JunkochanCamControl.cs" />
-    <Compile Include="Assets\JunkoChan\Scripts\JunkochanControl.cs" />
     <Compile Include="Assets\Timer.cs" />
-    <None Include="Assets\JunkoChan\Readme (English and Japanese).txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/한수/Desktop/zolup/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
@@ -310,6 +307,12 @@
     <Reference Include="Boo.Lang">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{1B501C16-31AC-13F8-CDC6-B5E61B1C291B}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
