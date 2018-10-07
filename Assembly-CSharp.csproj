@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\GameResult.cs" />
     <Compile Include="Assets\Goal.cs" />
+    <Compile Include="Assets\Out.cs" />
     <Compile Include="Assets\Timer.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/한수/Desktop/zolup/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
