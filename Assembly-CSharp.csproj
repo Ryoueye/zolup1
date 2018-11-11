@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\script\GameResult.cs" />
     <Compile Include="Assets\script\Goal.cs" />
+    <Compile Include="Assets\script\Moving.cs" />
     <Compile Include="Assets\script\Out.cs" />
     <Compile Include="Assets\script\Timer.cs" />
     <Reference Include="UnityEditor.StandardEvents">
