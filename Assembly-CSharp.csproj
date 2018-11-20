@@ -66,6 +66,7 @@
     <Compile Include="Assets\script\Moving.cs" />
     <Compile Include="Assets\script\Out.cs" />
     <Compile Include="Assets\script\Timer.cs" />
+    <None Include="Assets\Cartoon Temple Building Kit\ReadMe.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/한수/Desktop/zolup/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
