@@ -55,11 +55,14 @@
   <ItemGroup>
      <Compile Include="Assets\script\GameResult.cs" />
      <Compile Include="Assets\script\Goal.cs" />
+     <Compile Include="Assets\script\goal1.cs" />
      <Compile Include="Assets\script\Moving.cs" />
      <Compile Include="Assets\script\Moving1.cs" />
      <Compile Include="Assets\script\Out.cs" />
+     <Compile Include="Assets\script\out1.cs" />
      <Compile Include="Assets\script\StartButton.cs" />
      <Compile Include="Assets\script\Timer.cs" />
+     <Compile Include="Assets\script\tutorialButton.cs" />
      <None Include="Assets\Cartoon Temple Building Kit\ReadMe.txt" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/한수/Desktop/zolup/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
