@@ -63,6 +63,7 @@
      <Compile Include="Assets\script\out1.cs" />
      <Compile Include="Assets\script\StartButton.cs" />
      <Compile Include="Assets\script\Timer.cs" />
+     <Compile Include="Assets\script\trap1.cs" />
      <Compile Include="Assets\script\tutorialButton.cs" />
      <None Include="Assets\Cartoon Temple Building Kit\ReadMe.txt" />
  <Reference Include="UnityEditor.StandardEvents">
