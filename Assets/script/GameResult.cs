@@ -6,7 +6,7 @@ public class GameResult : MonoBehaviour {
 
 	public Text resultTime, bestTime;
 
-	public GameObject parts;
+    public GameObject parts;
 
 	void Start()
 	{

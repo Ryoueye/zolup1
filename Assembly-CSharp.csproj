@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\script\clear1.cs" />
+     <Compile Include="Assets\script\coin.cs" />
      <Compile Include="Assets\script\GameResult.cs" />
      <Compile Include="Assets\script\Goal.cs" />
      <Compile Include="Assets\script\goal1.cs" />
@@ -61,6 +62,8 @@
      <Compile Include="Assets\script\Moving1.cs" />
      <Compile Include="Assets\script\Out.cs" />
      <Compile Include="Assets\script\out1.cs" />
+     <Compile Include="Assets\script\score_manager.cs" />
+     <Compile Include="Assets\script\score_update.cs" />
      <Compile Include="Assets\script\StartButton.cs" />
      <Compile Include="Assets\script\Timer.cs" />
      <Compile Include="Assets\script\trap1.cs" />
