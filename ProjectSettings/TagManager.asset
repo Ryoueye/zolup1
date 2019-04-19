@@ -6,6 +6,7 @@ TagManager:
   tags:
   - trap1
   - coin
+  - trap2
   layers:
   - Default
   - TransparentFX
