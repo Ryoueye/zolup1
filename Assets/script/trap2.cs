@@ -9,7 +9,7 @@ public class trap2 : MonoBehaviour
     {
         if (col.gameObject.tag == "Player")
         {
-            col.transform.Translate(new Vector3(0,10f,0) * Time.deltaTime);
+            transform.Translate(new Vector3(0,-15,0) * Time.deltaTime);
         }
     }
 }

@@ -3262,7 +3262,7 @@ GameObject:
   - component: {fileID: 1378545128}
   - component: {fileID: 1378545130}
   m_Layer: 0
-  m_Name: goal (1)
+  m_Name: trap1
   m_TagString: trap1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3340,7 +3340,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1378545127}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -69.27, y: 1.99, z: -58.89}
+  m_LocalPosition: {x: -67.3, y: 1.99, z: -58.22}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4539,15 +4539,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000013710897082, guid: d2a6bc7a4cd483345a06f51f26bc6480, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -65.06586
+      value: -67.2
       objectReference: {fileID: 0}
     - target: {fileID: 4000013710897082, guid: d2a6bc7a4cd483345a06f51f26bc6480, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.438
+      value: 0.44
       objectReference: {fileID: 0}
     - target: {fileID: 4000013710897082, guid: d2a6bc7a4cd483345a06f51f26bc6480, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -66.82
+      value: -62.41
       objectReference: {fileID: 0}
     - target: {fileID: 4000013710897082, guid: d2a6bc7a4cd483345a06f51f26bc6480, type: 2}
       propertyPath: m_LocalRotation.x
@@ -4572,6 +4572,14 @@ Prefab:
     - target: {fileID: 1000010935486428, guid: d2a6bc7a4cd483345a06f51f26bc6480, type: 2}
       propertyPath: m_TagString
       value: trap2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010935486428, guid: d2a6bc7a4cd483345a06f51f26bc6480, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010935486428, guid: d2a6bc7a4cd483345a06f51f26bc6480, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2a6bc7a4cd483345a06f51f26bc6480, type: 2}
