@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class out1 : MonoBehaviour {
 
@@ -8,7 +9,7 @@ public class out1 : MonoBehaviour {
     {
         if (co1.gameObject.tag == "Player")
         {
-            Application.LoadLevel(3);
+            SceneManager.LoadScene("G.O 1");
         }
     }
 }

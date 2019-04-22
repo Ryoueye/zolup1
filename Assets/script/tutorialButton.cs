@@ -8,7 +8,7 @@ public class tutorialButton : MonoBehaviour {
     public void ButtonClick1()
     {
 
-        SceneManager.LoadScene("tutorial");
+        SceneManager.LoadScene("lodingtu");
 
     }
 

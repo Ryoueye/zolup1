@@ -9,7 +9,7 @@ public class clear1 : MonoBehaviour
     public void ButtonClick1()
     {
 
-        SceneManager.LoadScene("GamePlay2");
+        SceneManager.LoadScene("loding2");
 
     }
 
