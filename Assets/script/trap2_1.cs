@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class trap2_1 : MonoBehaviour {
-
+    public GameObject obj;
     void OnTriggerEnter(Collider col)
     {
-        if (col.gameObject.tag == "trap2")
+        if (col.gameObject.tag == "trap2_1")
         {
-            col.transform.position = new Vector3(-67f, 0.5f, -59f);
+            Instantiate(obj, new Vector3(-67, 3, -62.5f), Quaternion.identity);
         }
     }
 }

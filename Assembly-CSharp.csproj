@@ -64,7 +64,7 @@
      <Compile Include="Assets\script\Moving.cs" />
      <Compile Include="Assets\script\Moving1.cs" />
      <Compile Include="Assets\script\Out.cs" />
-     <Compile Include="Assets\script\out1.cs" />
+     <Compile Include="Assets\script\Out1.cs" />
      <Compile Include="Assets\script\Out2.cs" />
      <Compile Include="Assets\script\RetryButton.cs" />
      <Compile Include="Assets\script\RetryButton1.cs" />
