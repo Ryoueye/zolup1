@@ -6,7 +6,7 @@ public class Out2 : MonoBehaviour {
 	void OnTriggerEnter(Collider co1)
 	{
 		if (co1.gameObject.tag == "Player") {
-            SceneManager.LoadScene("GamePlay2");
+            SceneManager.LoadScene("G.O 2");
         }
 	}
 

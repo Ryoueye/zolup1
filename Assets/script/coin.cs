@@ -10,7 +10,7 @@ public class coin : MonoBehaviour {
     {
         if (col.gameObject.tag == "Player")
         {
-            score_manager.Score += 100;
+            score_manager.Score += 10;
             Destroy(this.gameObject);
         }
     }

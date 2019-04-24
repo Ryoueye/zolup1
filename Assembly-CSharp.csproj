@@ -55,6 +55,7 @@
   <ItemGroup>
      <Compile Include="Assets\script\clear1.cs" />
      <Compile Include="Assets\script\coin.cs" />
+     <Compile Include="Assets\script\exit.cs" />
      <Compile Include="Assets\script\GameResult.cs" />
      <Compile Include="Assets\script\Goal.cs" />
      <Compile Include="Assets\script\goal1.cs" />
@@ -63,6 +64,8 @@
      <Compile Include="Assets\script\loding2.cs" />
      <Compile Include="Assets\script\Moving.cs" />
      <Compile Include="Assets\script\Moving1.cs" />
+     <Compile Include="Assets\script\optionOff.cs" />
+     <Compile Include="Assets\script\optionOn.cs" />
      <Compile Include="Assets\script\Out.cs" />
      <Compile Include="Assets\script\Out1.cs" />
      <Compile Include="Assets\script\Out2.cs" />
@@ -75,8 +78,9 @@
      <Compile Include="Assets\script\trap1.cs" />
      <Compile Include="Assets\script\trap2.cs" />
      <Compile Include="Assets\script\trap2_1.cs" />
+     <Compile Include="Assets\script\trap3.cs" />
      <Compile Include="Assets\script\tutorialButton.cs" />
-     <None Include="Assets\Cartoon Temple Building Kit\ReadMe.txt" />
+     <None Include="Assets\box\ReadMe.txt" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/한수/Desktop/zolup/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
