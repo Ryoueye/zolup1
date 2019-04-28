@@ -7,7 +7,7 @@ public class trap4 : MonoBehaviour {
     {
         if (col.gameObject.tag == "Player")
         {
-            col.transform.position = new Vector3(-6+.35f, 7 ,-31.5f);
+            col.transform.position = new Vector3(-67.1f, 8.16f ,-31.85f);
         }
     }
 }

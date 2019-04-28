@@ -8,6 +8,11 @@ TagManager:
   - coin
   - trap2
   - trap2_1
+  - trap7_tag
+  - trap2_2
+  - trap2_3
+  - trap2_4
+  - trap7
   layers:
   - Default
   - TransparentFX
