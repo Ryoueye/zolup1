@@ -141,6 +141,7 @@
      <Compile Include="Assets\script\trap5.cs" />
      <Compile Include="Assets\script\trap6.cs" />
      <Compile Include="Assets\script\trap7.cs" />
+     <Compile Include="Assets\script\trap8.cs" />
      <Compile Include="Assets\script\tutorialButton.cs" />
      <None Include="Assets\object\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\object\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
