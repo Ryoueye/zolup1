@@ -132,6 +132,8 @@
      <Compile Include="Assets\script\Out.cs" />
      <Compile Include="Assets\script\Out1.cs" />
      <Compile Include="Assets\script\Out2.cs" />
+     <Compile Include="Assets\script\potal.cs" />
+     <Compile Include="Assets\script\potal1.cs" />
      <Compile Include="Assets\script\RetryButton.cs" />
      <Compile Include="Assets\script\RetryButton1.cs" />
      <Compile Include="Assets\script\score_manager.cs" />
@@ -179,26 +181,26 @@
      <None Include="Assets\Effect\New Folder\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\Effect\New Folder\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
      <None Include="Assets\Effect\New Folder\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
- <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/한수/Desktop/zolup/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/한수/Desktop/zolup/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/한수/Desktop/zolup/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
  <Reference Include="Unity.ProGrids">
  <HintPath>C:/Users/한수/Desktop/zolup/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
  </Reference>
  <Reference Include="Unity.ProGrids.Editor">
  <HintPath>C:/Users/한수/Desktop/zolup/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>C:/Users/한수/Desktop/zolup/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PackageManagerUI.Editor">
+ <HintPath>C:/Users/한수/Desktop/zolup/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Postprocessing.Editor">
  <HintPath>C:/Users/한수/Desktop/zolup/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Postprocessing.Runtime">
  <HintPath>C:/Users/한수/Desktop/zolup/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>C:/Users/한수/Desktop/zolup/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
