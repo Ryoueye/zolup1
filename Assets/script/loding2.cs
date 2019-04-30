@@ -18,7 +18,7 @@ public class loding2 : MonoBehaviour
         fTime += Time.deltaTime;
         slider.value = fTime;
 
-        if (fTime >= 5)
+        if (fTime >= 3)
         {
             async_operation.allowSceneActivation = true;
         }
