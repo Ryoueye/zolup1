@@ -13,7 +13,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         private Vector3 m_Move;
         private bool m_Jump;                      // the world-relative desired move direction, calculated from the camForward and user input.
         float rotSpeed = 3.0f;
+       
 
+      
         private void Start()
         {
             // get the transform of the main camera
@@ -30,14 +32,16 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
             // get the third person character ( this should never be null due to require component )
             m_Character = GetComponent<ThirdPersonCharacter>();
+           
         }
 
 
-        private void Update()
+    private void Update()
         {
             if (!m_Jump)
             {
                 m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
+                
             }
            // float MouseX = Input.GetAxis("Mouse X");
 

@@ -9,6 +9,6 @@ public class RetryButton1 : MonoBehaviour {
     {
 
         SceneManager.LoadScene("GamePlay2");
-
+        Time.timeScale = 1;
     }
 }

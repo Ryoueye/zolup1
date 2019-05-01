@@ -9,6 +9,7 @@ public class particle : MonoBehaviour {
     {
         throw new NotImplementedException();
     }
+
     void Start()
     {
         obj.gameObject.SetActive(false);
@@ -18,6 +19,7 @@ public class particle : MonoBehaviour {
         if (Input.GetKey(KeyCode.W)||Input.GetKey(KeyCode.Space))
         {
             obj.gameObject.SetActive(true);
+                   
         }
         else
             obj.gameObject.SetActive(false);

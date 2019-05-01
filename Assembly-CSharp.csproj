@@ -122,12 +122,14 @@
      <Compile Include="Assets\script\GameResult.cs" />
      <Compile Include="Assets\script\Goal.cs" />
      <Compile Include="Assets\script\goal1.cs" />
+     <Compile Include="Assets\script\gomain.cs" />
      <Compile Include="Assets\script\loding.cs" />
      <Compile Include="Assets\script\loding1.cs" />
      <Compile Include="Assets\script\loding2.cs" />
      <Compile Include="Assets\script\Moving.cs" />
      <Compile Include="Assets\script\Moving1.cs" />
      <Compile Include="Assets\script\optionOff.cs" />
+     <Compile Include="Assets\script\optionOff1.cs" />
      <Compile Include="Assets\script\optionOn.cs" />
      <Compile Include="Assets\script\Out.cs" />
      <Compile Include="Assets\script\Out1.cs" />
@@ -136,6 +138,7 @@
      <Compile Include="Assets\script\potal1.cs" />
      <Compile Include="Assets\script\RetryButton.cs" />
      <Compile Include="Assets\script\RetryButton1.cs" />
+     <Compile Include="Assets\script\RetryButton2.cs" />
      <Compile Include="Assets\script\score_manager.cs" />
      <Compile Include="Assets\script\score_update.cs" />
      <Compile Include="Assets\script\StartButton.cs" />
