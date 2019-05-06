@@ -9,8 +9,8 @@ public class StartButton : MonoBehaviour
         {
 
             SceneManager.LoadScene("loding1");
-
-        }
+            Time.timeScale = 1;
+    }
 }
 
 

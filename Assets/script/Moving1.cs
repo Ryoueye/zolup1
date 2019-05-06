@@ -4,11 +4,8 @@ using UnityEngine;
 
 public class Moving1 : MonoBehaviour
 {
-    private readonly float leftLimit_x = -5.5f;
-    private readonly float rightLimit_x = 5.5f;
-
-    private readonly Vector3 vec_LeftLimit = new Vector3(-7.5f, 0, 0);
-    private readonly Vector3 vec_RightLimit = new Vector3(7.5f, 0, 0);
+    private readonly Vector3 vec_LeftLimit = new Vector3(-30.5f, 0, 0);
+    private readonly Vector3 vec_RightLimit = new Vector3(30.5f, 0, 0);
     private float movingSpeed;
 
     private Vector3 initPos;

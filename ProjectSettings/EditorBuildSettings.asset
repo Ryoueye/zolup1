@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/GamePlay2.unity
     guid: 2414776f7d2098f42b3288c81d8d3443
   - enabled: 1
+    path: Assets/Scenes/Creator.unity
+    guid: 833a2f5e60e50334abbf773b00272c8c
+  - enabled: 1
     path: Assets/Scenes/G.O 1.unity
     guid: fa7e38cfc26a0934b89a040026671579
   - enabled: 1

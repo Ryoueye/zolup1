@@ -7,6 +7,7 @@ public class Out : MonoBehaviour {
 	{
 		if (co1.gameObject.tag == "Player") {
             SceneManager.LoadScene("tutorial");
+            Time.timeScale = 1;
         }
 	}
 

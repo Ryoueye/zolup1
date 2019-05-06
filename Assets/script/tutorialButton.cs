@@ -9,7 +9,7 @@ public class tutorialButton : MonoBehaviour {
     {
 
         SceneManager.LoadScene("lodingtu");
-
+        Time.timeScale = 1;
     }
 
 }

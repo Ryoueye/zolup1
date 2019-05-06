@@ -10,6 +10,7 @@ public class Out1 : MonoBehaviour {
         if (co1.gameObject.tag == "Player")
         {
             SceneManager.LoadScene("G.O 1");
+            Time.timeScale = 1;
         }
     }
 }

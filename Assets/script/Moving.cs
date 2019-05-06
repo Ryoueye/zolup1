@@ -3,12 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Moving : MonoBehaviour {
-    private readonly float leftLimit_x = -2.5f;
-    private readonly float rightLimit_x = 2.5f;
-
-    private readonly Vector3 vec_LeftLimit = new Vector3(-4.5f, 0, 0);
-    private readonly Vector3 vec_RightLimit = new Vector3(4.5f, 0, 0);
-    private float movingSpeed;
+    private readonly Vector3 vec_LeftLimit = new Vector3(-73.1f, 6.43f, -47.39f);
+    private readonly Vector3 vec_RightLimit = new Vector3(-60.77f, 6.43f, -47.39f);
+    
 
     private Vector3 initPos;
     private Vector3 moveDirection;

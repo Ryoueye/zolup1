@@ -122,6 +122,7 @@
      <Compile Include="Assets\script\GameResult.cs" />
      <Compile Include="Assets\script\Goal.cs" />
      <Compile Include="Assets\script\goal1.cs" />
+     <Compile Include="Assets\script\gocreator.cs" />
      <Compile Include="Assets\script\gomain.cs" />
      <Compile Include="Assets\script\loding.cs" />
      <Compile Include="Assets\script\loding1.cs" />
