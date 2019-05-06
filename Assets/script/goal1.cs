@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class goal1 : MonoBehaviour {
 
@@ -8,7 +9,8 @@ public class goal1 : MonoBehaviour {
     {
         if (co1.gameObject.tag == "Player")
         {
-            Application.LoadLevel(0);
+            SceneManager.LoadScene("main1");
+            Time.timeScale = 1;
         }
     }
 
