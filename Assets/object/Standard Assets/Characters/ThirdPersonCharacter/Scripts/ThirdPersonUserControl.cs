@@ -13,12 +13,26 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         private Vector3 m_Move;
         private bool m_Jump;                      // the world-relative desired move direction, calculated from the camForward and user input.
         float rotSpeed = 3.0f;
-       
+        public Camera firstPersonCamera;
+        public Camera overheadCamera;
 
-      
+        public void ShowOverheadView()
+        {
+            firstPersonCamera.enabled = false;
+            overheadCamera.enabled = true;
+        }
+
+        public void ShowFirstPersonView()
+        {
+            firstPersonCamera.enabled = true;
+            overheadCamera.enabled = false;
+        }
+
+
         private void Start()
         {
             // get the transform of the main camera
+            ShowOverheadView();
             if (Camera.main != null)
             {
                 m_Cam = Camera.main.transform;
@@ -58,7 +72,13 @@ namespace UnityStandardAssets.Characters.ThirdPerson
             float h = CrossPlatformInputManager.GetAxis("Horizontal");
             float v = CrossPlatformInputManager.GetAxis("Vertical");
             bool crouch = Input.GetKey(KeyCode.E);
-            
+            if (Input.GetKey(KeyCode.E))
+            {
+                ShowFirstPersonView();
+            }
+            else
+                ShowOverheadView();
+
 
             // calculate move direction to pass to character
             if (m_Cam != null)
