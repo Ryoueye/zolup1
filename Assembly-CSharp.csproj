@@ -115,6 +115,7 @@
      <Compile Include="Assets\object\Standard Assets\Utility\WaypointCircuit.cs" />
      <Compile Include="Assets\object\Standard Assets\Utility\WaypointProgressTracker.cs" />
      <Compile Include="Assets\Scenes\testscript\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Scenes\testscript\NewBehaviourScript1.cs" />
      <Compile Include="Assets\script\Moving.cs" />
      <Compile Include="Assets\script\Moving1.cs" />
      <Compile Include="Assets\script\Out.cs" />

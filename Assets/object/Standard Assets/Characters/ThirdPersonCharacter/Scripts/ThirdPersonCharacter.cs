@@ -73,7 +73,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
 			// send input and other state parameters to the animator
 			UpdateAnimator(move);
-		}
+
+            
+        }
 
 
 		void ScaleCapsuleForCrouching(bool crouch)
@@ -84,7 +86,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 				m_Capsule.height = m_Capsule.height / 2f;
 				m_Capsule.center = m_Capsule.center / 2f;
 				m_Crouching = true;
-			}
+                Debug.Log("crouching");
+            }
 			else
 			{
 				Ray crouchRay = new Ray(m_Rigidbody.position + Vector3.up * m_Capsule.radius * k_Half, Vector3.up);
@@ -125,7 +128,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			if (!m_IsGrounded)
 			{
 				m_Animator.SetFloat("Jump", m_Rigidbody.velocity.y);
-			}
+                Debug.Log("jump");
+            }
 
 			// calculate which leg is behind, so as to leave that leg trailing in the jump animation
 			// (This code is reliant on the specific run cycle offset in our animations,
@@ -137,6 +141,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 			if (m_IsGrounded)
 			{
 				m_Animator.SetFloat("JumpLeg", jumpLeg);
+
 			}
 
 			// the anim speed multiplier allows the overall speed of walking/running to be tweaked in the inspector,
@@ -195,6 +200,7 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 				// we preserve the existing y part of the current velocity.
 				v.y = m_Rigidbody.velocity.y;
 				m_Rigidbody.velocity = v;
+
 			}
 		}
 
@@ -213,7 +219,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 				m_GroundNormal = hitInfo.normal;
 				m_IsGrounded = true;
 				m_Animator.applyRootMotion = true;
-			}
+                
+            }
 			else
 			{
 				m_IsGrounded = false;
