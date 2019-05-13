@@ -138,6 +138,7 @@
      <Compile Include="Assets\script\trap8.cs" />
      <Compile Include="Assets\script\trap9.cs" />
      <Compile Include="Assets\script\tutoral.cs" />
+     <Compile Include="Assets\script\tutoral1.cs" />
      <Compile Include="Assets\script\UI\clear1.cs" />
      <Compile Include="Assets\script\UI\coin.cs" />
      <Compile Include="Assets\script\UI\exit.cs" />

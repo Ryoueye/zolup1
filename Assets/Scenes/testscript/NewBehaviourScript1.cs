@@ -12,7 +12,8 @@ public class NewBehaviourScript1 : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        obj.transform.RotateAround(Vector3.zero, Vector3.up, 60 * Time.deltaTime);
+        if (transform.eulerAngles.y < 180)
+            obj.transform.RotateAround(Vector3.zero, Vector3.up, 60 * Time.deltaTime);
       
     }
 }
