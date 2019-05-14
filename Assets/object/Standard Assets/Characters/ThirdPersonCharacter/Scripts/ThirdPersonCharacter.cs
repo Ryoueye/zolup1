@@ -28,9 +28,22 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 		Vector3 m_CapsuleCenter;
 		CapsuleCollider m_Capsule;
 		bool m_Crouching;
+        public Camera firstPersonCamera;
+        public Camera overheadCamera;
 
+        public void ShowOverheadView()
+        {
+            firstPersonCamera.enabled = false;
+            overheadCamera.enabled = true;
+        }
 
-		void Start()
+        public void ShowFirstPersonView()
+        {
+            firstPersonCamera.enabled = true;
+            overheadCamera.enabled = false;
+        }
+
+        void Start()
 		{
 			m_Animator = GetComponent<Animator>();
 			m_Rigidbody = GetComponent<Rigidbody>();
@@ -86,6 +99,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 				m_Capsule.height = m_Capsule.height / 2f;
 				m_Capsule.center = m_Capsule.center / 2f;
 				m_Crouching = true;
+                if(m_Crouching == true)
+                  ShowFirstPersonView();
+                
                 Debug.Log("crouching");
             }
 			else
@@ -100,7 +116,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 				m_Capsule.height = m_CapsuleHeight;
 				m_Capsule.center = m_CapsuleCenter;
 				m_Crouching = false;
-			}
+                if(m_Crouching == false)
+                    ShowOverheadView();
+            }
 		}
 
 		void PreventStandingInLowHeadroom()

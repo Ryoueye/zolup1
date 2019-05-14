@@ -25455,9 +25455,29 @@ Prefab:
       propertyPath: m_Name
       value: ThirdPersonController
       objectReference: {fileID: 0}
+    - target: {fileID: 114451695388075870, guid: 686f2324f1146f14792816c06aa3e81c,
+        type: 2}
+      propertyPath: overheadCamera
+      value: 
+      objectReference: {fileID: 1826292479}
+    - target: {fileID: 114451695388075870, guid: 686f2324f1146f14792816c06aa3e81c,
+        type: 2}
+      propertyPath: firstPersonCamera
+      value: 
+      objectReference: {fileID: 1826292480}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 686f2324f1146f14792816c06aa3e81c, type: 2}
   m_IsPrefabAsset: 0
+--- !u!20 &1826292479 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 20615669169363362, guid: 686f2324f1146f14792816c06aa3e81c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1826292478}
+--- !u!20 &1826292480 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 20005840375518656, guid: 686f2324f1146f14792816c06aa3e81c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1826292478}
 --- !u!1001 &1842311113
 Prefab:
   m_ObjectHideFlags: 0

@@ -10775,11 +10775,31 @@ Prefab:
       propertyPath: m_MovingTurnSpeed
       value: 280
       objectReference: {fileID: 0}
+    - target: {fileID: 114451695388075870, guid: 686f2324f1146f14792816c06aa3e81c,
+        type: 2}
+      propertyPath: firstPersonCamera
+      value: 
+      objectReference: {fileID: 1117676598}
+    - target: {fileID: 114451695388075870, guid: 686f2324f1146f14792816c06aa3e81c,
+        type: 2}
+      propertyPath: overheadCamera
+      value: 
+      objectReference: {fileID: 1117676597}
     m_RemovedComponents:
     - {fileID: 82410054747488250, guid: 686f2324f1146f14792816c06aa3e81c, type: 2}
     - {fileID: 114148467076735646, guid: 686f2324f1146f14792816c06aa3e81c, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 686f2324f1146f14792816c06aa3e81c, type: 2}
   m_IsPrefabAsset: 0
+--- !u!20 &1117676597 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 20615669169363362, guid: 686f2324f1146f14792816c06aa3e81c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1117676596}
+--- !u!20 &1117676598 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 20005840375518656, guid: 686f2324f1146f14792816c06aa3e81c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1117676596}
 --- !u!1001 &1122848828
 Prefab:
   m_ObjectHideFlags: 0
