@@ -126,6 +126,9 @@
      <Compile Include="Assets\script\potal.cs" />
      <Compile Include="Assets\script\potal1.cs" />
      <Compile Include="Assets\script\sound\crouch.cs" />
+     <Compile Include="Assets\script\sound\potalsound.cs" />
+     <Compile Include="Assets\script\sound\run.cs" />
+     <Compile Include="Assets\script\sound\water.cs" />
      <Compile Include="Assets\script\trap1.cs" />
      <Compile Include="Assets\script\trap2.cs" />
      <Compile Include="Assets\script\trap2_1.cs" />
@@ -143,6 +146,7 @@
      <Compile Include="Assets\script\tutoral1.cs" />
      <Compile Include="Assets\script\UI\clear1.cs" />
      <Compile Include="Assets\script\UI\coin.cs" />
+     <Compile Include="Assets\script\UI\coinsound.cs" />
      <Compile Include="Assets\script\UI\exit.cs" />
      <Compile Include="Assets\script\UI\followcam.cs" />
      <Compile Include="Assets\script\UI\GameResult.cs" />

@@ -29,7 +29,6 @@ public class crouch : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.W))
         {
             if (Radio.isPlaying) return;
-            Radio.loop = true;
             Radio.PlayOneShot(shotSound[1]);
             
         }

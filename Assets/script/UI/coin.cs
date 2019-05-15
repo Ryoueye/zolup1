@@ -5,6 +5,7 @@ using UnityEngine;
 public class coin : MonoBehaviour {
 
     public float speed = 10.0f;
+   
 
     void OnTriggerEnter(Collider col)
     {
