@@ -117,6 +117,7 @@
      <Compile Include="Assets\Scenes\testscript\NewBehaviourScript.cs" />
      <Compile Include="Assets\Scenes\testscript\NewBehaviourScript1.cs" />
      <Compile Include="Assets\Scenes\testscript\rigidbody.cs" />
+     <Compile Include="Assets\Scenes\testscript\rigidbodyoff.cs" />
      <Compile Include="Assets\script\Moving.cs" />
      <Compile Include="Assets\script\Moving1.cs" />
      <Compile Include="Assets\script\Out.cs" />
