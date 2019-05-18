@@ -3,14 +3,24 @@ using UnityEngine.UI;
 public class GameResult : MonoBehaviour {
 	int highTime;
     int highScore;
+   
 
-	public Text resultTime, bestTime, resultScore, bestScore;
+    public Text resultTime, bestTime, resultScore, bestScore;
 
     public GameObject parts;
 
+  
+    void Stop()
+    {
+        Time.timeScale = 0;
+    }
+
+
 	void Start()
 	{
-		if (PlayerPrefs.HasKey ("HightTime")) 
+        
+
+        if (PlayerPrefs.HasKey ("HightTime")) 
 		{
 			highTime = PlayerPrefs.GetInt ("HightTime");
 		}
@@ -54,7 +64,11 @@ public class GameResult : MonoBehaviour {
 			bestTime.text = "BestTime : " + highTime;
             resultScore.text = "ResultScore : " + scoreresult;
             bestScore.text = "BestScore : " + highScore;
-            Time.timeScale = 0;
+            Invoke("Stop", 5f);
+           
+               
+          
+                
 
             
 

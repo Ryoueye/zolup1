@@ -5,19 +5,21 @@ using UnityEngine;
 public class run : MonoBehaviour {
     public AudioClip[] shotSound = new AudioClip[1];
 
-    //오디오 소스는 음악 재생기계 
-    AudioSource Radio;
+     
+    AudioSource[] Radio = new AudioSource[2];
 
-    void start()
+    void Start()
     {
-        Radio = GetComponent<AudioSource>();
-        Radio.loop = true;
+        Radio[0] = gameObject.AddComponent<AudioSource>() as AudioSource;
+        Radio[1] = gameObject.AddComponent<AudioSource>() as AudioSource;
+        Radio[1].clip = shotSound[0];
+        Radio[1].loop = true;
     }
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.W))
         {
-           // Radio.Play(shotSound[0]);
+            Radio[1].Play();
         }
 
         if (Input.GetKeyUp(KeyCode.W))
@@ -25,7 +27,7 @@ public class run : MonoBehaviour {
             //일시정지 
             //Radio.Pause() 
             //정지 
-            Radio.Stop();
+            Radio[1].Stop();
         }
     }
 }

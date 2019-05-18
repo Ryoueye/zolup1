@@ -26,13 +26,6 @@ public class crouch : MonoBehaviour
             Radio.PlayOneShot(shotSound[0]);
         }
 
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            if (Radio.isPlaying) return;
-            Radio.PlayOneShot(shotSound[1]);
-            
-        }
-
         if (Input.GetKeyDown(KeyCode.Space))
         {
             if (Radio.isPlaying) return;

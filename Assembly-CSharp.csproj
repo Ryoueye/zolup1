@@ -115,9 +115,6 @@
      <Compile Include="Assets\object\Standard Assets\Utility\WaypointCircuit.cs" />
      <Compile Include="Assets\object\Standard Assets\Utility\WaypointProgressTracker.cs" />
      <Compile Include="Assets\Scenes\testscript\NewBehaviourScript.cs" />
-     <Compile Include="Assets\Scenes\testscript\NewBehaviourScript1.cs" />
-     <Compile Include="Assets\Scenes\testscript\rigidbody.cs" />
-     <Compile Include="Assets\Scenes\testscript\rigidbodyoff.cs" />
      <Compile Include="Assets\script\Moving.cs" />
      <Compile Include="Assets\script\Moving1.cs" />
      <Compile Include="Assets\script\Out.cs" />
@@ -125,6 +122,9 @@
      <Compile Include="Assets\script\Out2.cs" />
      <Compile Include="Assets\script\potal.cs" />
      <Compile Include="Assets\script\potal1.cs" />
+     <Compile Include="Assets\script\rigidbody.cs" />
+     <Compile Include="Assets\script\rigidbodyoff.cs" />
+     <Compile Include="Assets\script\rotation.cs" />
      <Compile Include="Assets\script\sound\crouch.cs" />
      <Compile Include="Assets\script\sound\potalsound.cs" />
      <Compile Include="Assets\script\sound\run.cs" />
