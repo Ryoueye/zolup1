@@ -15,6 +15,10 @@ public class GameResult : MonoBehaviour {
         Time.timeScale = 0;
     }
 
+    void Result()
+    {
+        parts.SetActive(true);
+    }
 
 	void Start()
 	{
@@ -58,21 +62,21 @@ public class GameResult : MonoBehaviour {
                 PlayerPrefs.SetInt("HightScore", scoreresult);
             }
 
-            parts.SetActive (true);
-			
+            Invoke("Result", 5f);
+
             resultTime.text = "ResultTime : " + timeresult;
 			bestTime.text = "BestTime : " + highTime;
             resultScore.text = "ResultScore : " + scoreresult;
             bestScore.text = "BestScore : " + highScore;
+
             Invoke("Stop", 5f);
-           
-               
-          
-                
 
-            
 
-		}
+
+
+
+
+        }
 		Goal.goal = false;
 	}
 }
